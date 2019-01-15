@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Region from './Region'
 import Role from './Role'
 import Status from './Status'
+import Type from './Type'
 
 const FilterContent = styled.div`
   display: flex;
@@ -16,6 +17,7 @@ function Header() {
       <Region />
       <Role />
       <Status />
+      <Type />
     </FilterContent>
   )
 }
