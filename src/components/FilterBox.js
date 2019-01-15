@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const Box = styled.div`
   border: solid;
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 100px;
 `
 
 const Title = styled.h5`

@@ -21,11 +21,11 @@ class Region extends React.Component {
           North America
         </label>
         <label htmlFor="europe">
-          <input id="europe" type="checkbox" checked={this.state.northAmerica} onChange={this.onToggle} name="europe" />
+          <input id="europe" type="checkbox" checked={this.state.europe} onChange={this.onToggle} name="europe" />
           Europe
         </label>
         <label htmlFor="korea">
-          <input id="korea" type="checkbox" checked={this.state.northAmerica} onChange={this.onToggle} name="korea" />
+          <input id="korea" type="checkbox" checked={this.state.korea} onChange={this.onToggle} name="korea" />
           Korea
         </label>
       </FilterBox>
