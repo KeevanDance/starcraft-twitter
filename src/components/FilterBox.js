@@ -15,11 +15,20 @@ const Title = styled.h5`
   padding-right: 10px;
 `
 
+const Content = styled.div`
+  display: flex;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+`
+
 function FilterBox({ title, children }) {
   return (
     <Box>
       <Title>{title}</Title>
-      {children}
+      <Content>
+        {children}
+      </Content>
     </Box>
   )
 }
