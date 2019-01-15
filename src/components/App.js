@@ -11,6 +11,7 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
+      <h1>Starcraft Twitter</h1>
       <Header />
     </Container>
   )

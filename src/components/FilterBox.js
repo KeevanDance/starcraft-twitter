@@ -5,6 +5,7 @@ const Box = styled.div`
   border: solid;
   width: 250px;
   height: 100px;
+  margin-left: 2%;
 `
 
 const Title = styled.h5`
