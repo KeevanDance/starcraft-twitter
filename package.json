@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tcr": "npm run test && git add . && git commit -m \"working\" || git reset --hard"
+    "tcr": "npm run test -- --coverage && git add . && git commit -m \"working\" || git reset --hard"
   },
   "eslintConfig": {
     "extends": "react-app"
