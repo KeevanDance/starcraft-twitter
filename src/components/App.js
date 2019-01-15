@@ -1,10 +1,17 @@
 import React from 'react'
+import styled from 'styled-components'
+import Header from './Header'
+
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+`
 
 function App() {
   return (
-    <>
-      <h1>Starcraft Twitter</h1>
-    </>
+    <Container>
+      <Header />
+    </Container>
   )
 }
 
