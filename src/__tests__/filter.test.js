@@ -11,8 +11,13 @@ test('toggle region checkboxes', async () => {
 
   expect(getByLabelText('North America')).toHaveProperty('checked', false)
   expect(getByLabelText('Europe')).toHaveProperty('checked', false)
+  expect(getByLabelText('Korea')).toHaveProperty('checked', false)
+
   fireEvent.click(getByLabelText('North America'));
   fireEvent.click(getByLabelText('Europe'))
+  fireEvent.click(getByLabelText('Korea'))
+
   expect(getByLabelText('North America')).toHaveProperty('checked', true)
   expect(getByLabelText('Europe')).toHaveProperty('checked', true)
+  expect(getByLabelText('Korea')).toHaveProperty('checked', true)
 })

@@ -18,8 +18,9 @@ const Title = styled.h5`
 const Content = styled.div`
   display: flex;
   height: 90%;
-  align-items: center;
+  margin-left: 25%;
   justify-content: center;
+  flex-direction: column;
 `
 
 function FilterBox({ title, children }) {

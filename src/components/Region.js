@@ -5,6 +5,7 @@ class Region extends React.Component {
   state = {
     northAmerica: false,
     europe: false,
+    korea: false,
   }
 
   onToggle = (e) => {
@@ -22,6 +23,10 @@ class Region extends React.Component {
         <label htmlFor="europe">
           <input id="europe" type="checkbox" checked={this.state.northAmerica} onChange={this.onToggle} name="europe" />
           Europe
+        </label>
+        <label htmlFor="korea">
+          <input id="korea" type="checkbox" checked={this.state.northAmerica} onChange={this.onToggle} name="korea" />
+          Korea
         </label>
       </FilterBox>
     )
