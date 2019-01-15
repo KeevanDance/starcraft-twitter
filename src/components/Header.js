@@ -1,12 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
-import FilterBox from './FilterBox'
+import Region from './Region'
 
 function Header() {
   return (
     <>
       <h1>Starcraft Twitter</h1>
-      <FilterBox title="Region" />
+      <Region />
     </>
   )
 }

@@ -15,10 +15,11 @@ const Title = styled.h5`
   padding-right: 10px;
 `
 
-function FilterBox({ title }) {
+function FilterBox({ title, children }) {
   return (
     <Box>
       <Title>{title}</Title>
+      {children}
     </Box>
   )
 }
