@@ -9,7 +9,13 @@ const Container = styled.div`
   flex-direction: column;
 `
 
+async function fetchApi() {
+  const data = await fetch('http://localhost:8080/status')
+  console.log(data);
+}
+
 function App() {
+  fetchApi()
   return (
     <Container>
       <h1>Starcraft Twitter</h1>
